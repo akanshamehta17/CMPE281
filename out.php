@@ -1,6 +1,6 @@
 <?php 
 
-shell_exec("./umlparser /var/www/html/Madhur/ /var/www/html/Madhur/outputImg.png");
+shell_exec("./umlparser /var/www/html/<tenant_name>/ /var/www/html/<tenant_name>/outputImg.png");
 
  ?>
 
