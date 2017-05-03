@@ -20,7 +20,7 @@ if($_FILES["zip_file"]["name"]) {
        
        
 
-        $target_path = "/var/www/html/Madhur/".$filename;  // change this to the correct site path
+        $target_path = "/var/www/html/<tenant_name>/".$filename; 
         chmod($target_path,0777);
          
            if(move_uploaded_file($source, $target_path)) {  
@@ -32,11 +32,7 @@ if($_FILES["zip_file"]["name"]) {
         }
              
       } 
-//if (isset($_POST['run'])){
 
-//shell_exec("./umlparser /var/www/html/ /var/www/html/");
-
-//      }
 ?>
 <!DOCTYPE html>
 <html>
@@ -45,8 +41,8 @@ if($_FILES["zip_file"]["name"]) {
 <title>Untitled Document</title>
 </head>
 <body bgcolor="#F0E68C">
-<center><p><b><h2>Madhur Khandelwal</h2></b></p></center>
-<center><p><b>Student ID:011440507</b></p></center><hr color="red"/>
+<center><p><b><h2>Tenant Name</h2></b></p></center>
+<center><p><b>Student ID</b></p></center><hr color="red"/>
 <?php if($message) echo "<p>$message</p>"; ?>
 <form enctype="multipart/form-data" method="post" action="">
 <label><b><i><h2>Choose a zip file to upload:</h2></i></b> <input type="file" name="zip_file" /></label>
