@@ -1,2 +1,2 @@
-# CMPE281
- Multi-Tenant, Cloud Scale, Multi-AZ SaaS App in Amazon Web Services!
+# CMPE281-PERSONAL PROJECT
+ Multi-Tenant, Cloud Scale, Multi-AZ SaaS App in Amazon Web Services.
