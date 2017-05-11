@@ -34,9 +34,9 @@ if($_FILES["zip_file"]["name"]) {
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 </head>
-<body bgcolor="#C0C0C0">
+<body bgcolor="#E9967A">
 <center><p><b><h2>Tenant Name</h2></b></p></center>
-<center><p><b>Tenant ID:</b></p></center><hr color="red"/>
+<center><p><b>Tenant ID</b></p></center><hr color="red"/>
 <?php if($message) echo "<p>$message</p>"; ?>
 <form enctype="multipart/form-data" method="post" action="">
 <label><b><i><h2>Choose a zip file to upload:</h2></i></b> <input type="file" name="zip_file" /></label>
@@ -48,9 +48,9 @@ if($_FILES["zip_file"]["name"]) {
 </form>
 <iframe src="grading_page.php" height="300" width="1400" align="bottom"></iframe><br><br>
 <form action="grades.php">
-<input type="submit" value="View Grades" style="font-size:12pt;color:white;background-color:green;border:2px solid #336600;padding:3px"><br><br></form>
+<input type="submit" value="View Grades"></form><br><br>
 <form action="http://ec2-54-201-171-10.us-west-2.compute.amazonaws.com/welcome.php">
 <input type="submit" value="Choose another tenant" style="font-size:12pt;color:white;background-color:green;border:2px solid #336600;padding:3px"><br><br></form>
-
 </body>
 </html>
+
