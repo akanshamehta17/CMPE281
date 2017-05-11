@@ -1,5 +1,5 @@
 <?php
-shell_exec("java -jar umlparser.jar /var/www/html/Tenant-3/ /var/www/html/Tenant-3/outputImg.png");
+shell_exec("java -jar umlparser.jar /var/www/html/Tenant-3/ /var/www/html/Tenant-3/outputImg");
  ?>
 
 
