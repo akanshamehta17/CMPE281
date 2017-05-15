@@ -21,7 +21,7 @@
    
    (iii) out.php - to view the image of UML class diagram generated as output from Tenant's code.
    
-   (iv) grades.php - to view grades added after running viewing code output. The grades entered are stored in database. 
+   (iv) grades.php - to view grades added after running & viewing code output. The grades entered are stored in database. 
    
   - RDS instance to store Tenant's information and it's grades and depicting a multi-tenant model.
   
